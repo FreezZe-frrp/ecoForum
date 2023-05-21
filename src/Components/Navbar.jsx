@@ -10,7 +10,7 @@ This is what i need to do in CSS to change styling on when an Link is Active fro
 const Navbar = () => {
   return (
     <div>
-      <nav id="navbar">
+      <nav id="navbar" className="">
         <Link to="/">EcoForum</Link>
         <ul>
           <NavLink to="/login"> Login </NavLink>

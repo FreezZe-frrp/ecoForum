@@ -1,7 +1,9 @@
-import React from "react";
 import Navbar from "../Components/Navbar";
+import { initializeApp } from "firebase/app";
 
 const Register = () => {
+
+  const 
   return (
     <div>
       <Navbar />
